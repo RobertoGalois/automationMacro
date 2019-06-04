@@ -23,8 +23,6 @@ sub correctPlacingPolite
     oReplace.SearchRegularExpression = True
     ThisComponent.replaceAll( oReplace )
 
-	msgBox "ok"
-
 end sub
 
 
